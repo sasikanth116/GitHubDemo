@@ -49,6 +49,7 @@ public class Sasikanth_Project extends BaseSetup {                 // written by
 		driver.manage().window().maximize();
 		CommonUtils.Thread_Sleep(3);
 		driver.navigate().to("https://www.jenkins.io/download/");
+		System.out.println("Git passed");
 		//Elements=PageFactory.initElements(driver, Chemical_Prices_Elements.class);
 		//Dashboard_Elements=PageFactory.initElements(driver, Dashboard_Elements.class);
 		//Common_Elements=PageFactory.initElements(driver, Common_Elements.class);
